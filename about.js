@@ -2,7 +2,7 @@ const about = document.querySelector('#about');
 about.innerHTML = `
         <div class="about_overlay">
             <div class="about_us_one">
-                <h4>“ We have solutions for all your online business requirements.</h4>
+                <h4>“ We have solutions for all your online business requirements.”</h4>
             </div>
             <div class="about_container">
                 <div class="container_box">
@@ -31,7 +31,7 @@ about.innerHTML = `
                 <div class="founder_img">
                     <div class="founder_imgO">
                         <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg">
-                        <h4>MR. CHIRANJEEV DAS</h4>
+                        <h4>MR. CHIRANJIB DAS</h4>
                         <span>Ceo & Founder</span>
                     </div>
                 </div>

@@ -126,7 +126,6 @@ nav ul li a:hover{
 .git{
     width: 100%;
 }
-
 /* !About us */
 #about{
     margin-top: 10vh;
@@ -150,11 +149,9 @@ nav ul li a:hover{
     align-items: center;
     gap: 20px;
 }
-
 .container_box h1{
     color: #fff;
 }
-
 .founder{
     margin: 18% 0;
     display: flex;
@@ -171,8 +168,15 @@ nav ul li a:hover{
 .founder_img img{
     width: 50%;
     height: 50%;
+    border-radius: 5px;
 }
+/* !Our services */
+#services{
+    text-align: center;
+}
+
 /* !Media Querry */
+
 @media only screen and (max-width: 900px) {
     nav ul{
         display: none;
