@@ -12,14 +12,13 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: #fff;
 }
 .overlay{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background: rgb(0, 0, 0, 0.6);
-    position: fixed;
+    background: rgb(0, 0, 0, 0.5);
 }
 header nav{
     padding: 30px 70px;
@@ -41,7 +40,7 @@ nav ul li a{
     color: #fff;
 }
 nav ul li a:hover{
-    color: #17838b;
+    color: #3acbd6;
     transition: .5s;
 }
 .log{
@@ -51,11 +50,36 @@ nav ul li a:hover{
 }
 .log a{
     font-size: 15px;
-    color: #fff;
+    color: #ffffff;
 }
 .signup{
     padding: 8px 10px;
-    background-color: #31b0c0;
-    border-radius: 2px;
+    background-color:#0c7b71;
+    border-radius: 5px;
     font-weight: 800;
+}
+.signup:hover{
+    background-color: #fff;
+    transition: .5s;
+    color: #0c7b71;;
+}
+
+/* !hoME */
+#home{
+    display: flex;
+}
+.left_cont{
+    display: flex;
+}
+.left_cont .img{
+    position: relative;
+}
+.busi{
+    position: absolute;
+    /* left: 0; */
+    top: 100px;
+    right: 100px;
+}
+.git{
+    width: 100%;
 }
