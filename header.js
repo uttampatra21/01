@@ -7,9 +7,10 @@ header.innerHTML = `
     <li><a href="#about">About Us</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Contect</a></li>
-</ul>
-<div class="log">
+    <div class="log">
     <a class="signup" href="#">Registar</a>
 </div>
+</ul>
+
 </nav>
 `;

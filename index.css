@@ -34,11 +34,15 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
+nav h2{
+    color: red
+}
 nav h2 span{
     color: #0c7b71;
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav ul li{
     padding: 0 20px;
@@ -203,5 +207,8 @@ nav ul li a:hover{
     }
     .about_container{
         flex-wrap: wrap;
+    }
+    .container_box p{
+        padding: 0 30px;
     }
   }
