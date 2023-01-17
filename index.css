@@ -34,6 +34,9 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
+header nav i{
+    display: none;
+}
 nav h2{
     color: red
 }
@@ -184,9 +187,14 @@ nav ul li a:hover{
     nav ul{
         display: none;
     }
-    nav{
+    header nav{
         padding: 15px 20px;
     }
+    
+header nav i{
+    display: flex;
+    font-size: 30px;
+}
     #home{
         padding: 10px;
         text-align: center;
