@@ -165,7 +165,7 @@ nav ul li a:hover{
     align-items: center;
 }
 .founder_imgO img{
-    
+
 }
 .founder_img img{
     width: 100%;
@@ -179,5 +179,29 @@ nav ul li a:hover{
 @media only screen and (max-width: 1100px) {
     nav ul{
         display: none;
+    }
+    nav{
+        padding: 15px 20px;
+    }
+    #home{
+        padding: 10px;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .right_cont{
+        padding: 0;
+    }
+    .right_cont p{
+        padding: 0;
+        text-align: center;
+    }
+    .media{
+        justify-content: center;
+    }
+    #about{
+        padding: 10px;
+    }
+    .about_container{
+        flex-wrap: wrap;
     }
   }
