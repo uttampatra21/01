@@ -7,6 +7,9 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     background-repeat: no-repeat;
@@ -20,8 +23,13 @@ body{
     width: 100%;
     background: rgb(0, 0, 0, 0.5);
 }
+header{
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to top, #002929 0%, #1b013c 100%);
+}
 header nav{
-    padding: 30px 70px;
+    padding: 20px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,36 +66,116 @@ nav ul li a:hover{
     border-radius: 5px;
     font-weight: 800;
 }
-.signup:hover{
+.signup:hover,
+.touch a:hover{
     background-color: #fff;
     transition: .5s;
-    color: #0c7b71;;
+    color: #0c7b71;
 }
-
 /* !hoME */
 #home{
     display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 20px 70px;
 }
+
+.right_cont{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right_cont p{
+    font-family: sans-serif;
+    padding-right: 40px;
+    color: #fff;
+    text-align: justify;
+}
+.img_tittle span{
+    color: #3acbd6;
+}
+.touch{
+    margin: 10px 0;
+}
+.touch a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0c7b71;
+    color: #fff;
+    font-weight: 600;
+}
+.media{
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+.media i{
+    font-size: 25px;
+} 
 .left_cont{
     display: flex;
-}
-.left_cont .img{
-    position: relative;
-}
-.busi{
-    position: absolute;
-    /* left: 0; */
-    top: 100px;
-    right: 100px;
 }
 .git{
     width: 100%;
 }
 
+/* !About us */
+#about{
+    margin-top: 10vh;
+    padding: 20px 70px;
+    text-align: center;
+}
+.about_container{
+    margin-top: 10%;
+    display: flex;
+    gap: 10px;
+}
+.container_box img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.container_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
+.container_box h1{
+    color: #fff;
+}
 
-
-
+.founder{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.founder_img{
+    display: flex;
+    gap: 10%;
+}
+.founder_imgO{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.founder_imgO img{
+    
+}
+.founder_img img{
+    width: 100%;
+}
+.founder_imgt{
+}
+.founder_imgt img {
+    width: 100%;
+}
+/* !Media Querry */
 @media only screen and (max-width: 1100px) {
     nav ul{
         display: none;
