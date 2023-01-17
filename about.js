@@ -1,6 +1,6 @@
 const about = document.querySelector('#about');
 about.innerHTML = `
-<div class="about_overlay">
+        <div class="about_overlay">
             <div class="about_us_one">
                 <h4>“ We have solutions for all your online business requirements.</h4>
             </div>
@@ -30,12 +30,9 @@ about.innerHTML = `
                 <h1>OUR <span>FOUNDERS</span></h1>
                 <div class="founder_img">
                     <div class="founder_imgO">
-                        <img src="https://eu-images.contentstack.com/v3/assets/bltcd74acc1d0a99f3a/bltec404d2ff35fdf20/636176eefca4f052284e73e1/R6RHC9.jpg" alt="">
-                        <h2>MR. CHIRANJEEV DAS</h2>
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg">
+                        <h4>MR. CHIRANJEEV DAS</h4>
                         <span>Ceo & Founder</span>
-                    </div>
-                    <div class="founder_imgt">
-                        <img src="https://www.constructionweekonline.in/cloud/2022/03/07/office_space_kj3wup.jpg">
                     </div>
                 </div>
             </div>

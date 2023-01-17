@@ -8,7 +8,7 @@ home.innerHTML = `
                 <h2>NO.1 <span>DIGITAL MARKETING</span> AGENCY</h2>
             </div>
             <div>
-                <p>We Deliver Quality Creative Services and All Online Business Requirements to Our Clients. Build Your Performance Marketing Startegy & Increase Your ROI.</p>
+                <p>We Deliver Quality Creative Services and All Online Business Requirements to Our Clients. Build Your Performance Marketing Startegy & Increase Your Return on investment.</p>
             </div>
             <div class="touch">
                 <a href="#">GET IN TOUCH</a>
