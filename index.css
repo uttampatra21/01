@@ -194,8 +194,13 @@ nav ul li a:hover{
 }
 .box_two{
     text-align: left;
+    display: flex;
 }
-
+.box_one_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 /* !Media Querry */
 
 @media only screen and (max-width: 900px) {
@@ -240,5 +245,15 @@ header nav i{
     }
     .container_box p{
         padding: 0 30px;
+    }
+    #services{
+        padding: 18px 10px;
+    }
+    .service_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box_one{
+        width: 100%;
     }
   }
