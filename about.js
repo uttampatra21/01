@@ -30,8 +30,13 @@ about.innerHTML = `
                 <h1>OUR <span>FOUNDERS</span></h1>
                 <div class="founder_img">
                     <div class="founder_imgO">
-                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg">
+                        <img src="https://media.tenor.com/KdgcNpw-xtgAAAAM/johnny-sins.gif">
                         <h4>MR. CHIRANJIB DAS</h4>
+                        <span>Ceo & Founder</span>
+                    </div>
+                    <div class="founder_imgO">
+                        <img src="https://scontent.frdp4-1.fna.fbcdn.net/v/t39.30808-6/316218308_170661508978493_1654634967021752974_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=U0LG3pdBFz4AX_F_0fO&_nc_ht=scontent.frdp4-1.fna&oh=00_AfDzzNYJnUEKY8Mwz4waDX7SeQfBPJnuRT-roxP47ZKUKg&oe=63CAE234">
+                        <h4>UTTAM PATRA</h4>
                         <span>Ceo & Founder</span>
                     </div>
                 </div>

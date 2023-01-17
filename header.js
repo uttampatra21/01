@@ -6,7 +6,7 @@ header.innerHTML = `
 <ul>
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About Us</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="#services">Services</a></li>
     <li><a href="#">Contect</a></li>
     <div class="log">
     <a class="signup" href="#">Registar</a>

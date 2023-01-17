@@ -158,7 +158,11 @@ nav ul li a:hover{
     flex-direction: column;
     gap: 50px;
 }
+.founder_img{
+    display: flex;
+}
 .founder_imgO{
+    margin: 20px 0;
     width: 100%;
     gap: 10px;
     display: flex;
@@ -245,6 +249,13 @@ header nav i{
     }
     .container_box p{
         padding: 0 30px;
+    }
+    .founder_img img{
+        width: 200px;
+        height: 200px;
+    }
+    .founder_img{
+        flex-direction: column;
     }
     #services{
         padding: 18px 15px;
