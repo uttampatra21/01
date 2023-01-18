@@ -30,7 +30,7 @@ about.innerHTML = `
                 <h1>OUR <span>FOUNDERS</span></h1>
                 <div class="founder_img">
                     <div class="founder_imgO">
-                        <img src="https://media.tenor.com/KdgcNpw-xtgAAAAM/johnny-sins.gif">
+                        <img src="https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-716411.jpg&fm=jpg">
                         <h4>MR. CHIRANJIB DAS</h4>
                         <span>Ceo & Founder</span>
                     </div>
