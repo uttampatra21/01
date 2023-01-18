@@ -159,7 +159,7 @@ nav ul li a:hover{
     gap: 50px;
 }
 .founder_img{
-    display: flex;
+    /* display: flex; */
 }
 .founder_imgO{
     margin: 20px 0;
