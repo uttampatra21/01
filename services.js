@@ -23,8 +23,9 @@ services.innerHTML = `
     </div>
     <div class="box_one">
         <div class="box_one_text">
-            <h4>DIGITAL MARKETING</h4>
-            <p>Cost-effective way to grow businesses and increase sales with targeted audience reach.</p>
+            <h4>FINANCE SUPPORT</h4>
+            <p>Our loan provider team is composed of highly trained and experienced professionals who are dedicated to helping clients secure the funding they need.
+            </p>
         </div>
         <div class="box_two">
             <img src="https://cdn.shopify.com/s/files/1/0589/7168/5055/files/Ecommerce_grande.png?v=1650430524" >
@@ -36,7 +37,7 @@ services.innerHTML = `
         </div>
         <div class="box_two box_one_text">
             <h4>OTHERS</h4>
-            <p>We also offer other services that include photoshoot, video creation and Graphic designing.</p>
+            <p>We also offer other services that include photoshoot and video creation.</p>
         </div>
     </div>
 </div>

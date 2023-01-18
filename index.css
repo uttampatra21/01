@@ -205,6 +205,77 @@ nav ul li a:hover{
     flex-direction: column;
     gap: 10px;
 }
+/* !COntact */
+#contact{
+    gap: 20px;
+    background-color: #121212;
+    padding: 40px 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.send_message form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.send_message form input,textarea{
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    color: #fff;
+    background-color:  #0c7b71;
+
+}
+.submit:hover{
+    background-color: #fff;
+    color: #121212;
+    transition: 1s;
+}
+.location{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.location .col_1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.address, .phone{
+    display: flex;
+    gap: 50px;
+}
+.address p{
+    font-size: 14px;
+}
+.phone{
+    align-items: center;
+}
+.phone div p{
+    margin: 10px 0;
+}
+.col_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col_2 .col_2_div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.col_2 .col_2_div p{
+    font-size: 14px;
+}
+.time p{
+    margin: 10px 0;
+}
 /* !Media Querry */
 
 @media only screen and (max-width: 900px) {
