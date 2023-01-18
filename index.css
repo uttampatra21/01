@@ -338,4 +338,13 @@ header nav i{
     .box_one{
         width: 100%;
     }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        gap: 30px;
+    }
+    .send_message form{
+        gap: 10px;
+    }
   }
