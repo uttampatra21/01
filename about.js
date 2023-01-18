@@ -37,7 +37,7 @@ about.innerHTML = `
                     <div class="founder_imgO">
                         <img src="https://scontent.frdp4-1.fna.fbcdn.net/v/t39.30808-6/316218308_170661508978493_1654634967021752974_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=U0LG3pdBFz4AX_F_0fO&_nc_ht=scontent.frdp4-1.fna&oh=00_AfDzzNYJnUEKY8Mwz4waDX7SeQfBPJnuRT-roxP47ZKUKg&oe=63CAE234">
                         <h4>UTTAM PATRA</h4>
-                        <span>Ceo & Founder</span>
+                        <span>Managing Partner</span>
                     </div>
                 </div>
             </div>
