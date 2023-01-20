@@ -2,6 +2,7 @@ const home = document.querySelector('#home');
 home.innerHTML = `
 <div class="right_cont">
             <div>
+                <h4 class="white"><span >Warning : </span>  <span class="element"></span></h4>
                 <h1 class="tittle">GROW YOUR BUSSINESS WITH US!</h1>
             </div>
             <div class="img_tittle">
@@ -26,3 +27,9 @@ home.innerHTML = `
             </div>
         </div>
 `;
+var typed = new Typed('.element', {
+    strings: ["This site is under maintenance."],
+    typeSpeed: 50,
+    backSpeed: 40,
+    loop: true,
+  });

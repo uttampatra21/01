@@ -23,6 +23,11 @@ body{
     width: 100%;
     background: rgb(0, 0, 0, 0.5);
 }
+.white{
+    font-size: 16px;
+    color: red;
+    margin: 20px 0;
+}
 header{
     /* position: sticky; */
     top: 0;
