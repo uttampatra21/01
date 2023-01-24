@@ -29,6 +29,10 @@ open.addEventListener("click", () =>{
 close.addEventListener("click", () =>{
     sidemenu.style.right = "-200px";
 });
+
+sidemenu.addEventListener("click", () =>{
+    sidemenu.style.right = "-200px";
+});
 // const close = () =>{
 //     side.style.right = -200;
 // }
