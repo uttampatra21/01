@@ -31,7 +31,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  background-image: linear-gradient(to top, #000000 0%, #25094e 100%);
+  background-color: #190a37;
 }
 header nav {
   padding: 20px 70px;
